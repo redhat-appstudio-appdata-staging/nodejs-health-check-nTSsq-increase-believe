@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: nodejs-health-check
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/heliofrota-tenant/nodejs-health-check/nodejs-health-check@sha256:86b43af3906fc415fb0c6af39d8bed1056a41c937c4e46459f443092e7605fbb
+        name: my-nodejs
+        resources: {}
+status: {}
