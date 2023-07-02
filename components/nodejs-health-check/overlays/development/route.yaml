@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: nodejs-health-check
     app.kubernetes.io/part-of: nodejs-health-check
-  name: nodejs-health-checkt18c
+  name: nodejs-health-checkqfy8
 spec:
   path: /
   port:
