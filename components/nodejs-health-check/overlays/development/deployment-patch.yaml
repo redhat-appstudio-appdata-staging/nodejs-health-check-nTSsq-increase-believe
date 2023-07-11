@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: nodejs-health-check
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -12,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/heliofrota-tenant/nodejs-health-check/nodejs-health-check@sha256:86b43af3906fc415fb0c6af39d8bed1056a41c937c4e46459f443092e7605fbb
+      - image: quay.io/redhat-user-workloads-stage/heliofrota-tenant/nodejs-health-check/nodejs-health-check@sha256:11fc7a2a740e032b35c133cc57378f7e2022d16c9b1d68bc2e1d50d54ec03c9c
         name: my-nodejs
         resources: {}
 status: {}
